@@ -1,0 +1,146 @@
+{
+  "headers": {
+    "blockEtag": true,
+    "disableAuth": false,
+    "disableRef": false,
+    "enableDNT": true,
+    "refererXorigin": "1",
+    "refererTrimming": "1",
+    "spoofAcceptEnc": true,
+    "spoofAcceptLang": true,
+    "spoofAcceptLangValue": "en-US,en;q=0.5",
+    "spoofSourceRef": true,
+    "spoofVia": true,
+    "spoofViaValue": 0,
+    "spoofXFor": true,
+    "spoofXForValue": 0,
+    "upgradeInsecureRequests": true,
+    "viaIP": "",
+    "viaIP_profile": "221.20.56.237",
+    "xforwardedforIP": "",
+    "xforwardedforIP_profile": "221.20.56.237",
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+  },
+  "whitelist": {
+    "enabled": true,
+    "enableRealProfile": true,
+    "profile": {
+      "acceptEnc": "",
+      "acceptLang": "",
+      "appCodeName": "",
+      "appName": "",
+      "appVersion": "",
+      "hardwareConcurrency": 4,
+      "osCPU": "",
+      "platform": "",
+      "productSub": "",
+      "useragent": "",
+      "vendor": "",
+      "vendorSub": ""
+    },
+    "urlList": [
+      {
+        "url": "bitbucket.org",
+        "re": false,
+        "pattern": "",
+        "options": {
+          "auth": false,
+          "ip": false,
+          "ref": false,
+          "screen": false,
+          "websocket": false,
+          "winName": false
+        },
+        "lang": ""
+      }
+    ]
+  },
+  "excluded": {
+    "win": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "mac": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "linux": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "ios": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "android": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "settings": {
+    "customScreen": "",
+    "disableWebSockets": true,
+    "enableScriptInjection": true,
+    "interval": 1,
+    "limitHistory": true,
+    "minInterval": null,
+    "maxInterval": null,
+    "notificationsEnabled": true,
+    "protectWinName": true,
+    "screenSize": "default",
+    "spoofAudioContext": true,
+    "spoofClientRects": true,
+    "timeZone": "America/Los_Angeles",
+    "useragent": "randomDesktop",
+    "useragentValue": ""
+  },
+  "version": "0.10.4"
+}
