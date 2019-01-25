@@ -21,7 +21,6 @@
                     <li>GIT 地址：${git_url}</li>                    
                     <li>GIT 分支：${git_branch}</li>
                     <li>触发原因：${CAUSE}</li>
-                    <li>变更集:${JELLY_SCRIPT,template="html"}</li>
                 </ul>
             </td>
         </tr>
