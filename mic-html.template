@@ -17,7 +17,7 @@
                 <ul> 
                     <li>项目名称：${PROJECT_NAME}</li>
                     <li>构建结果: <span style="color:red"> ${BUILD_STATUS}</span></li>  
-                    <li>构建编号：${BUILD_NUMBER}  </li>
+                    <li>构建编号：第${BUILD_NUMBER}次构建</li>
                     <li>GIT 地址：${git_url}</li>                    
                     <li>GIT 分支：${git_branch}</li>
                     <li>触发原因：${CAUSE}</li>
@@ -29,7 +29,8 @@
           <td><b><font color="#0B610B">变更集</font></b>  
             <hr size="2" width="100%" align="center" />
           </td>  
-        </tr>         
+        </tr>
+                 
         <tr>
             <td><b><font color="#0B610B">构建日志 :</font></b>
             <hr size="2" width="100%" align="center" /></td>
