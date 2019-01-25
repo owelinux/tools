@@ -27,10 +27,10 @@
         </tr>
         <tr>  
           <td><b><font color="#0B610B">变更集</font></b>  
-            <hr size="2" width="100%" align="center" />
+          <hr size="2" width="100%" align="center" />
           </td>  
         </tr>
-                 
+
         <tr>
             <td><b><font color="#0B610B">构建日志 :</font></b>
             <hr size="2" width="100%" align="center" /></td>
