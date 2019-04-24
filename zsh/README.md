@@ -43,3 +43,6 @@ blinks
 
 ## 开启插件
 plugins=(z colored-man-pages zsh-autosuggestions zsh-syntax-highlighting zsh-navigation-tools git docker kubectl)
+
+## 参考
+[https://github.com/someok/oh-my-zsh-custom](https://github.com/someok/oh-my-zsh-custom)
