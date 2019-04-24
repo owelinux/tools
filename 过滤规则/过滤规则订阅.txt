@@ -1,0 +1,228 @@
+过滤规则聚合
+https://filterlists.com
+https://github.com/collinbarrett/FilterLists
+
+uBlock Origin 英文帮助文档
+https://github.com/gorhill/uBlock/wiki
+
+uBlock Origin 中文帮助文档
+https://github.com/fang5566/uBlock/wiki
+
+uMatrix 英文帮助文档
+https://github.com/gorhill/uMatrix/wiki
+
+ABP静态过滤规则编写
+https://github.com/fang5566/uBlock/wiki/%E9%9D%99%E6%80%81%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95
+https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
+https://adblockplus.org/zh_CN/filters
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+uBlock Origin 过滤规则
+项目地址: https://github.com/uBlockOrigin/uAssets
+
+Nano Adblocker 过滤规则
+项目地址: https://github.com/NanoAdblocker/NanoFilters
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+uBlock Origin 增强过滤规则
+
+uBlock Filters Plus
+项目地址: https://github.com/IDKwhattoputhere/uBlock-Filters-Plus
+订阅地址: https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt
+
+uBlock Antiskimming List
+项目地址: https://github.com/byaka/ublock-antiskimming-list
+拓展阅读: https://gwillem.gitlab.io/2016/10/03/inside-the-shady-world-of-credit-card-laundering/
+https://gwillem.gitlab.io/2016/10/04/how-republicans-send-your-credit-card-to-russia/
+https://gwillem.gitlab.io/2016/10/11/5900-online-stores-found-skimming/
+订阅地址: https://raw.githubusercontent.com/byaka/ublock-antiskimming-list/master/build/data.txt
+
+uBO Personal Filters
+项目地址: https://github.com/uBlock-user/uBO-Personal-Filters
+订阅地址: https://raw.githubusercontent.com/uBlock-user/uBO-Personal-Filters/master/uPF.txt
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Adguard 过滤规则
+
+官网地址: https://kb.adguard.com/en/general/adguard-ad-filters
+
+Adguard English Filter
+订阅地址: https://adguard.com/en/filter-rules.html?id=2
+
+Adguard DNS Filter
+订阅地址: https://adguard.com/en/filter-rules.html?id=15
+ADGuard DNS 176.103.130.130　176.103.130.131
+
+Adguard Spyware Filter
+订阅地址: https://adguard.com/en/filter-rules.html?id=3
+
+Adguard Annoyances Filter
+订阅地址: https://adguard.com/en/filter-rules.html?id=14
+
+Adguard Social Media Filter
+订阅地址: https://adguard.com/en/filter-rules.html?id=4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fanboy 过滤规则
+
+项目地址:https://secure.fanboy.co.nz
+https://github.com/ryanbr/fanboy-adblock
+
+Fanboy's Annoyance List
+订阅地址: https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+https://secure.fanboy.co.nz/fanboy-annoyance.txt
+
+Fanboy's Enhanced Tracking List
+订阅地址: https://secure.fanboy.co.nz/enhancedstats.txt
+
+EasyPrivacy
+订阅地址: https://easylist.to/easylist/easyprivacy.txt
+https://secure.fanboy.co.nz/easyprivacy.txt
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+中文网站广告过滤
+
+EasyList China
+订阅地址: https://easylist-downloads.adblockplus.org/easylistchina.txt
+
+EasyList Lite
+项目地址: https://github.com/cjx82630/cjxlist
+订阅地址: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt
+
+乘风规则
+反馈地址: https://bbs.kafan.cn/thread-1866845-1-1.html
+订阅地址: https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt
+
+CJX's Annoyance List
+项目地址: https://github.com/cjx82630/cjxlist
+订阅地址: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+屏蔽网站的反广告过滤
+
+Nano Defender
+项目地址: https://jspenguin2017.github.io/uBlockProtector
+
+Adblock Warning Removal List
+订阅地址: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+安全、隐私保护
+
+Ultimate Hosts Blacklist
+项目地址: https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist
+
+hpHosts Ad and tracking servers‎
+官网地址: https://hosts-file.net
+订阅地址: https://hosts-file.net/download/hosts.txt
+
+hosts.eladkarako.com
+项目地址: https://github.com/eladkarako/hosts
+
+DShield.org Recommended Block List
+官网地址: https://www.dshield.org
+订阅地址: https://feeds.dshield.org/block.txt
+https://www.dshield.org/feeds/suspiciousdomains_High.txt
+https://www.dshield.org/feeds/suspiciousdomains_Medium.txt
+https://www.dshield.org/feeds/suspiciousdomains_Low.txt
+
+Ransomware Tracker Domain Blocklist
+官网地址: https://ransomwaretracker.abuse.ch
+
+ZeuS Domain Blocklist
+官网地址: https://zeustracker.abuse.ch/blocklist.php
+
+CoinBlockerLists
+项目地址: 
+https://zerodot1.github.io/CoinBlockerLists/
+https://github.com/ZeroDot1/CoinBlockerLists
+http://whorunscoinhive.com/
+https://github.com/pan-unit42/iocs/blob/master/coinhive/top_domains.txt
+https://github.com/Marfjeh/coinhive-block/blob/master/domains
+https://github.com/hoshsadiq/adblock-nocoin-list
+
+FireHOL_level1
+官网地址: http://iplists.firehol.org
+订阅地址: https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset
+
+Malware Domains Blocklist
+官网地址: https://www.malwaredomains.com
+订阅地址: https://mirror1.malwaredomains.com/files/domains.txt
+https://easylist-downloads.adblockplus.org/malwaredomains_full.txt
+
+MVPS HOSTS
+官网地址: http://winhelp2002.mvps.org
+订阅地址: http://winhelp2002.mvps.org/hosts.txt
+
+Spam404
+项目地址: http://www.spam404.com
+https://github.com/Dawsey21/Lists
+订阅地址: https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt
+
+Malicious Web Site Labs/One DNS
+官网地址: http://www.mwsl.org.cn
+订阅地址: http://hosts.mwsl.org.cn/hosts.txt
+oneDNS　117.50.11.11　117.50.22.22　114.215.126.16　112.124.47.27
+
+Michael Trimm's Hosts
+项目地址: https://github.com/michaeltrimm/hosts-blocking
+订阅地址: https://raw.githubusercontent.com/michaeltrimm/hosts-blocking/master/_hosts.txt
+
+NoTrack Blocklist
+项目地址: https://github.com/quidsup/notrack
+订阅地址: https://raw.githubusercontent.com/quidsup/notrack/master/trackers.txt
+
+joeylane hosts
+项目地址: https://github.com/joeylane/hosts
+订阅地址: https://raw.githubusercontent.com/joeylane/hosts/master/hosts
+
+StevenBlack hosts
+项目地址: https://github.com/StevenBlack/hosts
+
+someonewhocares
+订阅地址: http://someonewhocares.org/hosts/
+
+yoyo.org
+项目地址: https://pgl.yoyo.org/as/
+https://pgl.yoyo.org/adservers/
+https://pgl.yoyo.org/adservers/formats.php
+
+KADhosts
+项目地址: https://github.com/azet12/KADhosts
+订阅地址: https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt
+
+Shalla Blacklist Secure Services
+项目地址: http://www.shallalist.de
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+uMatrix 过滤规则
+项目地址: 
+https://github.com/uMatrix-Rules
+https://github.com/dupontjoy/customization/tree/master/Rules/uMatrix
+https://bbs.kafan.cn/thread-2104769-1-1.html
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+屏蔽YouTube的视频广告、回复及更多干扰内容
+
+官网地址: https://youtube.adblockplus.me
+
+Youtube Pure Video Experience 屏蔽Youtube视频的回复内容、推荐视频和频道、分享标签和嵌入视频的标注内容
+订阅地址: https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt
+
+Youtube Remove Comments 仅屏蔽回复内容
+订阅地址: https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt
+
+Youtube Remove Youtube Suggestions 仅屏蔽推荐视频和频道
+订阅地址: https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt
+
+Youtube Other Annoyances 仅屏蔽分享标签和嵌入视频的标注内容
+订阅地址: https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt
