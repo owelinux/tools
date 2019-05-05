@@ -1,9 +1,9 @@
 #!/bin/bash
 # change DNS
 cat << EOF > /etc/resolv.conf
-#nameserver 223.5.5.5 
-nameserver 223.6.6.6
-nameserver 114.114.114.114
+#nameserver 223.6.6.6
+nameserver 223.5.5.5 
+nameserver 1.1.1.1
 EOF
 
 # change repo
@@ -22,7 +22,7 @@ deb-src http://mirrors.aliyun.com/debian-security/ stretch/updates main non-free
 EOF
 
 # install app
-apt upgrade -y && apt-get dist-upgrade && apt update -y  && apt install -y  vim curl wget ssh bash-completion git dos2unix
+apt upgrade -y && apt-get dist-upgrade -y && apt update -y  && apt install -y  vim curl wget ssh bash-completion git dos2unix
 
 ############################install zsh##################
 # install zsh 
@@ -30,13 +30,15 @@ apt install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 mv ~/.zshrc ~/.zshrc.bak
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-chsh -s /bin/zsh
+#chsh -s /bin/zsh
 
 # install zsh-syntax-highlighting and zsh-autosuggestions
 cd ~/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-source ~/.zshrc
+rm -f ~/.zshrc
+wget https://raw.githubusercontent.com/owelinux/tools/master/zsh/.zshrc
+#source ~/.zshrc
 
 # install zpm and dircolors-material
 if [ ! -f ~/.zpm/zpm.zsh ]; then
@@ -54,10 +56,10 @@ systemctl  restart docker.service
 chmod +x /usr/share/bash-completion/bash_completion
 
 # install kubectl helm
-cd /tmp
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && cp kubecl /usr/local/bin
+cd /usr/local/bin
+curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get |bash
-chmod +x /usr/local/bin/*
+chmod +x /usr/local/bin/kubectl
 source <(kubectl completion bash)
 echo "source <(kubectl completion bash)" >> ~/.bashrc
 
@@ -86,3 +88,5 @@ PS1='${debian_chroot:+($debian_chroot)}\h@\u:\w\$ '
 EOF
 echo "alias ll='ls -l --color=auto'" >> /etc/profile
 echo "alias ls='ls --color=auto'" >> /etc/profile
+
+source ~/.zshrc
